@@ -1,0 +1,55 @@
+<resources>
+    <string name="app_name">POS</string>
+
+    <string name="camera_permission">Camera Permission Required</string>
+
+    <string name="beli">Beli</string>
+    <string name="stock">Stock</string>
+    <string name="harga">Harga</string>
+    <string name="barang_delete">Ingin Menghapus Barang ?</string>
+    <string name="barang_deleted">Barang Dihapus</string>
+    <string name="failed">Gagal</string>
+    <string name="yes">Ya</string>
+    <string name="no">Tidak</string>
+    <string name="no_data_found">Barang Tidak Ditemukan</string>
+    <string name="data_successfully_added">Barang Berhasil Ditambahkan</string>
+    <string name="data_exporting_please_wait">Data Exporting. Please wait. . .</string>
+    <string name="data_export_fail">Data Export Fail</string>
+    <string name="data_successfully_exported">Data Successfully Exported</string>
+    <string name="error">Error</string>
+    <string name="press_once_again_to_exit">Tekan Sekali Lagi Untuk Keluar!</string>
+    <string name="update_successfully">Update Barang Berhasil</string>
+    <string name="kategori">Kategori</string>
+    <string name="satuan">Satuan</string>
+    <string name="suppliers">Suppliers</string>
+    <string name="no_file_found">No File Found</string>
+    <string name="data_importing_please_wait">Data importing. Please wait. . .</string>
+    <string name="data_successfully_imported">Data Successfully Imported</string>
+    <string name="data_import_fail">Data Import Fail</string>
+    <string name="stock_is_low_please_update_stock">Stok menipis. Harap perbarui stok</string>
+    <string name="product_added_to_cart">Produk ditambahkan ke keranjang</string>
+    <string name="product_already_added_to_cart">Produk sudah ditambahkan ke keranjang</string>
+    <string name="product_added_to_cart_failed_try_again">Produk yang ditambahkan ke keranjang gagal! Coba lagi</string>
+    <string name="total_price">Total Harga:</string>
+    <string name="product_removed_from_cart">Produk dihapus dari keranjang</string>
+    <string name="available_stock">Stok tersedia</string>
+    <string name="no_product_in_cart">Tidak ada Barang di Keranjang</string>
+    <string name="order_done_successful">Order Done Successful</string>
+    <string name="total_tax">Pajak (%)</string>
+    <string name="discount_cant_be_greater_than_total_price">Diskon tidak boleh lebih besar dari harga total</string>
+
+    <string name="order_history">Order History</string>
+    <string name="order_id">Order ID:</string>
+    <string name="payment_method">Payment Method:</string>
+    <string name="order_type">Order Type:</string>
+    <string name="order_updated">Order Updated</string>
+    <string name="change_order_status">Ganti Order Status</string>
+    <string name="order_completed">Order Completed</string>
+    <string name="cancel_order">Cancel Order</string>
+    <string name="please_change_order_status_to_complete_or_cancel">Harap ubah status pesanan untuk menyelesaikan atau membatalkan</string>
+    <string name="year">Tahun</string>
+    <string name="monthly_sales_report">Laporan Penjualan Bulanan</string>
+    <string name="net_sales">Net Penjualan</string>
+    <string name="total_discount">Total Discount</string>
+    <string name="total_sales">Total Penjualan :</string>
+</resources>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.ahmadabuhasan.pos">
+
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:fullBackupContent="true"
+        android:icon="@mipmap/ic_me"
+        android:label="@string/app_name"
+        android:requestLegacyExternalStorage="true"
+        android:roundIcon="@mipmap/ic_me_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:targetApi="Q">
+        <activity android:name=".GraphReportActivity"></activity>
+        <activity android:name=".OrderDetailsActivity" />
+        <activity android:name=".OrdersActivity" />
+        <activity
+            android:name=".UpdatedataScannerviewActivity"
+            android:parentActivityName=".UpdatedataActivity" />
+        <activity
+            android:name=".UpdatedataActivity"
+            android:parentActivityName=".ViewdataActivity" />
+        <activity
+            android:name=".ScannerviewActivity"
+            android:parentActivityName=".AdddataActivity" />
+        <activity
+            android:name=".AdddataActivity"
+            android:parentActivityName=".ViewdataActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ViewdataActivity"
+            android:parentActivityName=".DashboardActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.ahmadabuhasan.pos.DashboardActivity" />
+        </activity>
+        <activity
+            android:name=".BarangKasirActivity"
+            android:parentActivityName=".KasirActivity" />
+        <activity
+            android:name=".ScannerkasirActivity"
+            android:parentActivityName=".KasirActivity" />
+        <activity
+            android:name=".KasirActivity"
+            android:parentActivityName=".DashboardActivity" />
+        <activity
+            android:name=".DashboardActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".MainActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:theme="@style/SplashScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.karumi.dexter.DexterActivity"
+            android:theme="@style/Dexter.Internal.Theme.Transparent" />
+        <activity
+            android:name="com.obsez.android.lib.filechooser.permissions.PermissionActivity"
+            android:label=""
+            android:theme="@style/Theme.Transparent" />
+    </application>
+
+</manifest>
